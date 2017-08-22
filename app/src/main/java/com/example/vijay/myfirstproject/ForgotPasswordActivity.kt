@@ -15,5 +15,6 @@ class ForgotPasswordActivity : AppCompatActivity() {
         textViewMessageFP = findViewById(R.id.txtViwFgtPwd)
 
         textViewMessageFP.text = "Welcome to forgot password page"
+
     }
 }
