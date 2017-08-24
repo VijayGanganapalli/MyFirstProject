@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
             val password:String = editTextPassword.text.toString()
             startActivity(Intent(applicationContext, SignInActivity::class.java).putExtra(KEY_USERNAME, uName)
                                                                                 .putExtra(KEY_PASSWORD, password))
-            //startActivity(Intent(applicationContext, SignInActivity::class.java).putExtra(KEY_NAME, password))
         }
         buttonSignUp.setOnClickListener {
             startActivity(Intent(applicationContext, SignUpActivity::class.java))
